@@ -2,7 +2,6 @@
 //
 #pragma once
 // std
-#include <experimental/optional>
 #include <memory>
 #include <utility>
 #include <vector>
@@ -10,7 +9,6 @@
 #include <seastar/core/gate.hh>
 #include <seastar/core/shared_ptr.hh>
 #include <seastar/net/api.hh>
-
 #include "smf/histogram.h"
 #include "smf/macros.h"
 #include "smf/rpc_connection.h"

@@ -2,7 +2,6 @@
 //
 #pragma once
 // std
-#include <experimental/optional>
 // seastar
 #include <seastar/core/iostream.hh>
 #include <seastar/net/api.hh>

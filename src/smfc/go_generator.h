@@ -2,7 +2,6 @@
 //
 
 #pragma once
-#include <experimental/optional>
 #include <sstream>
 #include <string>
 
@@ -10,6 +9,7 @@
 #include <boost/filesystem.hpp>
 
 #include "generator.h"
+#include "smf/stdx.h"
 
 namespace smf_gen {
 
@@ -35,7 +35,7 @@ class go_generator : public generator {
     return str.str();
   }
 
-  virtual std::experimental::optional<std::string>
+  virtual stdx::optional<std::string>
   gen() final {
     generate_header_prologue();
     generate_header_includes();

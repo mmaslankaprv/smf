@@ -14,7 +14,6 @@
 #include "smf/rpc_header_ostream.h"
 
 namespace smf {
-namespace stdx = std::experimental;
 
 std::ostream &
 operator<<(std::ostream &o, const smf::rpc_server &s) {
